@@ -1,0 +1,44 @@
+﻿<%@ Master Language="VB" AutoEventWireup="false" CodeBehind="NewMaster.master.vb" Inherits="online_project_final.NewMaster" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server">
+    <title>Untitled Page</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    </head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <asp:Image ID="Image1" runat="server" Height="244px" 
+            ImageUrl="~/images/oes.png" Width="1260px" />
+        <br />
+        <br />
+        <asp:ImageButton ID="ImageButton5" runat="server" 
+            ImageUrl="~/images/about us.png" 
+            style="top: 267px; left: 273px; position: absolute; height: 42px; width: 199px" />
+        <asp:ImageButton ID="ImageButton4" runat="server" Height="42px" 
+            ImageUrl="~/images/home.png" style="top: 268px; left: 21px; position: absolute" 
+            Width="199px" />
+        <br />
+        <br />
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+        </asp:ContentPlaceHolder>
+        <br />
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            <p>
+            </p>
+        </asp:ContentPlaceHolder>
+        <br />
+        <br />
+    </div>
+    <p style="color: #FF0000">
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+        Copy Rights (c) 2013 All Rights reserved by Cse-2 Batch VII</p>
+    <asp:ImageButton ID="ImageButton3" runat="server" Height="42px" 
+        ImageUrl="~/images/contact us.png" 
+        style="top: 264px; left: 584px; position: absolute" Width="199px" />
+    </form>
+</body>
+</html>
